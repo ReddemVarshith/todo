@@ -1,0 +1,93 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #2f3640;
+}
+
+/* Input and Add button */
+#inputs {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+#add {
+    padding: 10px 20px;
+    background-color: #44bd32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add:hover {
+    background-color: #4cd137;
+}
+
+/* Todo List */
+ul#lists {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List Item Style */
+ul#lists li {
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border: 1px solid #dcdde1;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* small space between text and buttons */
+}
+
+/* Task text */
+ul#lists li p {
+    margin: 0;
+    flex-grow: 1; /* expands to take available space */
+}
+
+/* Buttons inside list items */
+ul#lists li button {
+    font-size: 12px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Remove button style */
+ul#lists li button:nth-child(2) {
+    background-color: #e84118;
+    color: white;
+}
+
+ul#lists li button:nth-child(2):hover {
+    background-color: #c23616;
+}
+
+/* Mark button style */
+ul#lists li button:nth-child(3) {
+    background-color: #00a8ff;
+    color: white;
+}
+
+ul#lists li button:nth-child(3):hover {
+    background-color: #0097e6;
+}
